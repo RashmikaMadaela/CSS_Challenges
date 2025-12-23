@@ -1,0 +1,37 @@
+:root {
+    --spoler-color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+p {
+  line-height: 1.5em;
+} 
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post {
+    background-color: lightgray;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.spoiler{
+    background-color: var(--spoler-color);
+    color: var(--spoler-color);
+    transition: all 1s ease;
+}
+
+.spoiler:hover{
+    background-color: initial;
+    color: initial;
+}
